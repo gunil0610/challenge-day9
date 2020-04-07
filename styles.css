@@ -1,6 +1,6 @@
 @import "reset.css";
 @import "namecard.css";
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
 body {
   background-color: black;
@@ -22,8 +22,7 @@ body {
 .airpods__image {
   height: 300px;
   width: 300px;
-  border: 1px solid black;
-  margin-bottom: 30px;
+  margin: 20px 0px;
   align-self: center;
 }
 
@@ -34,7 +33,7 @@ body {
 }
 
 .airpods__title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 22px;
   margin-bottom: 20px;
 }
@@ -50,8 +49,14 @@ body {
   padding: 0px 30px;
 }
 
+.airpods__price {
+  font-weight: 700;
+  font-size: 22px;
+}
+
 .airpods__stars {
   display: flex;
+  align-items: center;
 }
 
 .checked {
@@ -62,6 +67,12 @@ body {
   opacity: 0.15;
 }
 
-.stars_num {
-  margin-left: 20px;
+.stars__star {
+  margin-right: 10px;
+}
+
+.stars__num {
+  opacity: 0.5;
+  font-size: 15px;
+  font-weight: 600;
 }
